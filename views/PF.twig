@@ -1,0 +1,33 @@
+    {% extends "./main.twig" %}
+{% block main %}
+	<main class="row col-8 offset-4">
+        <section>
+            <form action="/projects" method="post"  enctype="multipart/form-data">
+                <div>
+                    <label for="name"> Nom du projet</label>
+                    <input type="text" name="nameProject" id="name" class="case">
+                </div>
+                <br>
+                <div>
+                    <label for="firstname"> description projet</label>
+                    <input type="text" id="description" name="discribProject" class="case">
+                </div>
+                <br>
+                <div>
+                <label for="email"> lien github</label>
+                <input type="text" id="git" name="githubProject" class="case">
+            </div>
+                <br>
+				<div>
+       {# debut multer (***** image *****) #}
+					<label id="fileImage" for="image">Choisir une image</label>
+					<input type="file" name="image" id="image">
+					{# fin multer (***** image *****) #}
+                </div>
+				<br>
+                <input type="submit" value="envoyer sur CV" class="btn btn-secondary">
+               
+            </form>
+        </section>
+    </main>
+	{% endblock %}

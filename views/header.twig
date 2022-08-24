@@ -1,0 +1,24 @@
+<header class="sticky-top">
+	<nav class="navbar bg-light ">
+		<div class="container-fluid">
+			<h1 class="navbar-brand mb-0 h1">Cécile COLO</h1>
+			<h3> Développeur Web Junior</h3>
+	
+  </label>
+			<ul class="nav justify-content-end">
+				<li class="nav-item">
+					<a class="nav-link {%if action == "presentation" %} active {% endif %}" aria-current="page" href="/presentation">Présentation</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {%if action == "experiences" %} active {% endif %}" aria-current="page" href="/experiences">Experiences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {%if action == "porteFolio" %} active {% endif %}"  aria-current="page" href="/portFolio">Porte Folio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link {%if action == "contact" %} active {% endif %}"  aria-current="page" href="/contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Italiana";
+    src: url("/font/Italiana-Regular") format("ttf"),
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(139deg, rgba(248, 242, 242, 0.9643207624846813) 40%, rgb(215, 195, 16) 67%);
+}
+
+main{
+    
+   
+}
+
+
+
+.pres {
+    font-size: 14px;
+    animation: presentation 2s ease 0s 1 normal both;
+}
+
+@keyframes presentation {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.nav-link {
+    color: #8f9297 !important;
+}
+
+h2 {
+    margin-top: 50px !important;
+    margin-bottom: 25px !important;
+    font-family: Italiana;
+
+}
+
+.imag1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    animation: img1 2s ease-in 2s 1 normal both;
+}
+
+@keyframes img1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cita {
+    font-style: italic;
+}
+table{
+   border-collapse: separate !important;
+}
+
+th{
+    border: 6px ridge rgb(200, 188, 188) !important;
+    width: 20%;
+    border-radius: 20px;
+}
+td{
+    border: 6px ridge  rgb(200, 188, 188) !important;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.td1{
+    background: linear-gradient(45deg, rgb(229, 223, 205) 62%, rgba(227,220,114,1) 74%);
+}
+.td2{
+    background: linear-gradient(45deg, rgb(229, 223, 205) 50%, rgba(227,220,114,1) 60%);
+}
+.td3{
+    background: linear-gradient(45deg, rgb(229, 223, 205) 52%, rgba(227,220,114,1) 66%);
+}
+.td4{
+    background: linear-gradient(45deg, rgb(229, 223, 205) 62%, rgba(227,220,114,1) 74%);
+}
+
+.fond-card{
+background-color: #b1b0a1;
+border-radius: 10px;
+}

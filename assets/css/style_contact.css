@@ -1,0 +1,30 @@
+.contact{
+    background-color: rgb(229, 198, 19) !important;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin-bottom: 100px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Italiana";
+    src: url("/font/Italiana-Regular") format("ttf"),
+}
+
+label{
+    font-family: "Italiana";
+    font-size: larger;
+}
+
+input{
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+

@@ -1,0 +1,51 @@
+{% extends "./main.twig" %}
+{% block stylesheet %}
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/style_contact.css">
+{% endblock %}
+
+
+{% block main %}
+
+	<form method="post" action="/contact" class="col-8">
+
+		<section style="text-align:center" class="section row">
+<h2>Contact</h2>
+			<article class=" contact shadow ">
+				<div>
+					<label for="user">Nom</label>
+				</div>
+				<div>
+					<input type="name" id="name" name="name">
+				</div>
+				<br>
+				<div>
+					<label for="mail">Entrez votre mail</label>
+				</div>
+				<div>
+					<input type="mail" id="mail" name="mail">
+				</div>
+				<br>
+				<div>
+					<label class="form-label" for="message">Laissez votre message</label>
+					<textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem; "></textarea>
+				</div>
+				<div>
+					<button type="submit" class="btn btn-secondary col-3 mt-4">Envoyer</button>
+				</div>
+				<br>
+
+			</article>
+		</section>
+		<section>
+			<article>
+
+				<a href="https://www.bing.com/search?FORM=SLBRDF&PC=SL10&q=8+lotissement+lou+cantounet+13360+roquevaire"><img src="images/adresse.png" class="offset-2" style="width:10%; height:10%"></a>
+
+				<a href="tel:0671158534"><img src="images/telephone.png" class="offset-2 " style="width:10%; height:10%"></a>
+				<a href="mailto:CessWeb8@gmail.com"><img src="images/email-logo.png" class="offset-2" style="width:10%; height:10%"></a>
+			</article>
+		</section>
+
+	</form>
+{% endblock %}

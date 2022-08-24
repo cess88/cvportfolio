@@ -1,0 +1,38 @@
+
+
+
+.exp1{
+    background-color: rgb(229, 198, 19);
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+   
+}
+
+.art2{
+    border-bottom: 2px solid grey;
+}
+.art3{
+    border-bottom: 2px solid grey;
+    height: 200px;
+    
+}
+
+.sec2{
+background-color: rgb(229, 198, 19);
+border-top: 2px solid grey;
+border-bottom: 2px solid grey;
+}
+
+h2{
+    
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgb(200, 188, 188);
+    width:50%;
+    text-align: center;
+}
+
+.art4{
+    margin-left: 200%;
+}
+
