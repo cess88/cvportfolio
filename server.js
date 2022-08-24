@@ -51,6 +51,10 @@ app.get("/portfolio", async(req, res)=>{
     action:"porteFolio"
 })
 
+app.all('*', (req, res) => {
+    res.redirect('/presentation')
+});
+
 
 
 
