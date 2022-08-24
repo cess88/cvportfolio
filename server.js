@@ -32,23 +32,19 @@ mongoose.connect(db,(err)=>{
 
 app.get("/presentation", async(req, res)=>{
     res.render("./presentation.twig")
-    action:"presentation"
 })
 
 
 app.get("/experiences", async(req, res)=>{
     res.render("./experiences.twig")
-    action:"experiences"
 })
 
 app.get("/contact", async(req, res)=>{
-    res.render("./contact.twig")
-    action:"contact"
+    res.render("./contact.twig",)
 })
 
 app.get("/portfolio", async(req, res)=>{
     res.render("./portFolio.twig")
-    action:"porteFolio"
 })
 
 app.all('*', (req, res) => {
