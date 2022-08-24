@@ -113,6 +113,14 @@ userRouter.post('/contact',  async ( req, res)=>{
       res.redirect("/presentation")
 })
 
+userRouter.get('*', async (req, res) => {
+  try {
+     res.redirect('/presentation')
+  } catch (error) {
+      console.log(error);
+  }
+})
+
 
 
 export default userRouter
