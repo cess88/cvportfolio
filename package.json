@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "cess",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "nodemon": "^2.0.19",
     "twig": "^1.15.4"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
 }
